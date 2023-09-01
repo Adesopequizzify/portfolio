@@ -1,0 +1,204 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0; /* Remove default margins */
+  padding: 0; /* Remove default padding */
+  background-color: #f5f5f5; /* Set a background color */
+}
+
+header {
+  background: linear-gradient(to bottom, #2980b9, #3498db);
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.tag {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: -5px;
+}
+
+.link {
+  margin-top: 10px;
+}
+
+.link a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 28px; /* Adjust icon size */
+  transition: color 0.3s ease;
+}
+
+.link a:hover {
+  color: #f39c12;
+}
+/* About section styles */
+
+.about {
+  margin-top: 100px;
+  padding: 40px 0;
+  text-align: center;
+  background-color: #fff; /* Set a background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.about img {
+  max-width: 100%;
+  border-radius: 800px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.bio {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 auto 20px;
+  max-width: 600px;
+}
+
+.about-info {
+  font-size: 16px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-info p {
+  margin-bottom: 20px;
+}
+
+/* Skills section styles */
+.skills {
+  padding: 40px 0;
+  background-color: #f5f5f5; /* Set a background color */
+  text-align: center;
+}
+
+.skills h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills li {
+  font-size: 16px;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.skills li i {
+  margin-right: 10px;
+}
+
+.skills li:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.experience {
+  padding: 40px 0;
+  background-color: #fff; /* Set a background color */
+  text-align: center;
+}
+
+.experience h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.exp-info {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.exp-info ul {
+  list-style-type: none;
+  counter-reset: exp-counter;
+  padding: 0;
+}
+
+.exp-info li {
+  position: relative;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+
+.exp-a{
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+}
+.exp-info li::before {
+  content: counter(exp-counter);
+  counter-increment: exp-counter;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+.contact {
+  padding: 40px 0;
+  background-color: #f5f5f5; /* Set a background color */
+  text-align: center;
+}
+
+.contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact li {
+  display: inline-block;
+  margin: 0 20px;
+  font-size: 28px;
+}
+
+.contact li a {
+  color: #3498db; /* Set a link color */
+  text-decoration: none;
+}
+
+.contact li a:hover {
+  color: #f39c12; /* Set a hover color */
+}
+
+/*Head colors */
+
+h3, h2 {
+  color: #2980b9;
+}
