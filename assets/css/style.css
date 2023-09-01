@@ -141,9 +141,11 @@ header {
 .experience h3 {
   font-size: 28px;
   margin-bottom: 20px;
+  
 }
 
 .exp-info {
+  font-family: 'Nunito', sans-serif;
   padding-left: 30px;
   max-width: 800px;
   margin: 0 auto;
