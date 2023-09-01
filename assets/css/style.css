@@ -63,25 +63,32 @@ header {
 
 .about img {
   max-width: 100%;
+  border-radius: 100px;
   height: 200px;
   margin-bottom: 20px;
 }
 
 .bio {
-  font-size: 16px;
+  font-size: 22px;
   line-height: 1.5;
   margin: 0 auto 20px;
   max-width: 600px;
+  font-family: 'Barlow', sans-serif;
+  font-weight: bold;
 }
 
 .about-info {
-  font-size: 16px;
-  max-width: 800px;
+  font-size: 22px;
+  max-width: 350px;
   margin: 0 auto;
+  font-family: 'Barlow', sans-serif;
+  font-weight: bold;
+  
 }
 
 .about-info p {
   margin-bottom: 20px;
+  
 }
 
 /* Skills section styles */
@@ -137,14 +144,14 @@ header {
 }
 
 .exp-info {
+  padding-left: 30px;
   max-width: 800px;
   margin: 0 auto;
   text-align: left;
 }
 
 .exp-info ul {
-  list-style-type: none;
-  counter-reset: exp-counter;
+ counter-reset: exp-counter;
   padding: 0;
 }
 
@@ -200,5 +207,15 @@ header {
 /*Head colors */
 
 h3, h2 {
+  color: #2980b9;
+}
+
+footer{
+  
+  margin-left: 130px;
+}
+.foot a{
+  text-decoration: none;
+  
   color: #2980b9;
 }
